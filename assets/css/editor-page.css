@@ -1,0 +1,56 @@
+/**
+ * Page Editor Styles
+ *
+ * Applied only when editing pages for a full-width editing experience.
+ */
+
+.is-root-container {
+  max-width: none !important;
+}
+
+/* Remove title wrapper space - content starts at top */
+.editor-visual-editor__post-title-wrapper {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Remove gap between top-level sections only */
+.is-root-container > .wp-block-group,
+.is-root-container > .wp-block-cover,
+.is-root-container > section,
+.is-root-container > .alignfull {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Hide decorative/animation elements in editor */
+/* The LLM adds this class to empty divs used for CSS animations/backgrounds */
+.editor-styles-wrapper .miles-editor-hidden {
+  display: none !important;
+}
+
+/* Disable scroll animations in editor — no IntersectionObserver runs here */
+/* Without this, .js .animate-on-scroll:not(.is-visible) keeps elements at opacity: 0 */
+.editor-styles-wrapper .animate-on-scroll,
+.editor-styles-wrapper .animate-from-left,
+.editor-styles-wrapper .animate-from-right,
+.editor-styles-wrapper .animate-scale {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+/* Align template part padding with page content in editor */
+/* With useRootPaddingAwareAlignments, post-content gets root padding but template parts don't. */
+/* This ensures header/footer template parts have matching padding in the editor. */
+.editor-styles-wrapper .wp-block-template-part > .alignfull {
+  padding-left: var(--wp--style--root--padding-left, 0) !important;
+  padding-right: var(--wp--style--root--padding-right, 0) !important;
+}
+
+/* Reduce extra space WordPress adds after content for block insertion */
+/* WordPress adds a ::after pseudo-element on body for click area - minimize it */
+.editor-styles-wrapper::after {
+  height: 100px !important;
+  min-height: 100px !important;
+}
