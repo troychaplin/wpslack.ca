@@ -371,11 +371,11 @@ color: var(--wp--preset--color--color-forest);
   margin-top: var(--wp--preset--spacing--40);
   animation: fadeSlideUp 0.7s ease 2.5s both;
 }
-
 .hero-cta-area {
-  margin-top: var(--wp--preset--spacing--50);
-  animation: fadeSlideUp 0.7s ease 2.8s both;
-}
+      margin-top: var(--wp--preset--spacing--50);
+      animation: fadeSlideUp 0.7s ease 2.8s both;
+      gap: var(--wp--preset--spacing--40);
+    }
 
 .hero-cta {
   display: inline-flex;
@@ -388,10 +388,11 @@ color: var(--wp--preset--color--color-forest);
   background-color: var(--wp--preset--color--color-forest);
   text-decoration: none;
   padding: var(--wp--preset--spacing--30) var(--wp--preset--spacing--40);
-  border-radius: 2px;
-  letter-spacing: 0.04em;
-  transition: background-color 0.4s ease, transform 0.3s ease;
-}
+border-radius: 2px;
+      letter-spacing: 0.04em;
+      border: 1.5px solid var(--wp--preset--color--color-forest);
+      transition: background-color 0.4s ease, transform 0.3s ease;
+    }
 
 .hero-cta:hover {
   background-color: var(--wp--preset--color--color-maple);
@@ -1874,11 +1875,11 @@ color: var(--wp--preset--color--color-forest);
   letter-spacing: 0.04em;
   transition: background-color 0.4s ease, transform 0.3s ease;
 }
-
 .wp-block-button.hero-cta .wp-block-button__link:hover {
-  background-color: var(--wp--preset--color--color-maple);
-  transform: translateX(4px);
-}
+      background-color: var(--wp--preset--color--color-maple);
+      border-color: var(--wp--preset--color--color-maple);
+      transform: translateX(4px);
+    }
 
 /* Hero CTA button - arrow icon pseudo-element */
 .wp-block-button.hero-cta::after {
@@ -1896,12 +1897,26 @@ color: var(--wp--preset--color--color-forest);
   mask-repeat: no-repeat;
   transition: transform 0.3s ease;
 }
-
 .wp-block-button.hero-cta .wp-block-button__link:hover::after {
-  transform: translateX(4px);
-}
-
-/* Hero section - grid container editor fix */
+      transform: translateX(4px);
+    }
+    
+    /* Hero CTA outline variant */
+    .wp-block-button.hero-cta.is-style-outline .wp-block-button__link {
+      background-color: transparent;
+      color: var(--wp--preset--color--color-forest);
+      border: 1.5px solid var(--wp--preset--color--color-forest);
+      transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease, transform 0.3s ease;
+    }
+    
+    .wp-block-button.hero-cta.is-style-outline .wp-block-button__link:hover {
+      background-color: var(--wp--preset--color--color-forest);
+      color: var(--wp--preset--color--color-cream-light);
+      border-color: var(--wp--preset--color--color-forest);
+      transform: translateX(4px);
+    }
+    
+    /* Hero section - grid container editor fix */
 .editor-styles-wrapper .hero {
   display: grid !important;
   grid-template-columns: 28% 1fr !important;
