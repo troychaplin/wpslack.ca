@@ -60,15 +60,6 @@ function miles_wp_slack_canada_community_site_36126675_enqueue_scripts() {
 add_action( 'wp_enqueue_scripts', 'miles_wp_slack_canada_community_site_36126675_enqueue_scripts' );
 
 /**
- * Remove title support from pages for cleaner editing experience.
- * The homepage content provides its own visual header.
- */
-function miles_wp_slack_canada_community_site_36126675_customize_pages() {
-    remove_post_type_support( 'page', 'title' );
-}
-add_action( 'init', 'miles_wp_slack_canada_community_site_36126675_customize_pages' );
-
-/**
  * Add JS class to html element for animation system.
  * Outputs early in head to prevent FOUC on animated elements.
  */

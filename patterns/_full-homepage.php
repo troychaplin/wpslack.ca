@@ -1,0 +1,584 @@
+<?php
+/**
+ * Title: Homepage
+ * Slug: miles-wp-slack-canada-community-site-36126675/homepage
+ * Categories: 
+ */
+?>
+<!-- wp:group {"tagName":"section","metadata":{"name":"Hero Section"},"align":"full","className":"hero","layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull hero"><!-- wp:group {"metadata":{"name":"Hero Image Panel"},"className":"hero-image-panel","style":{"background":{"backgroundImage":{"url":"http://localhost:8890/wp-content/uploads/2026/02/hero-maple-canopy.jpg"},"backgroundSize":"cover","backgroundPosition":"center center"}}} -->
+<div class="wp-block-group hero-image-panel"></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Hero Content Panel"},"className":"hero-content-panel"} -->
+<div class="wp-block-group hero-content-panel"><!-- wp:template-part {"slug":"header","theme":"miles-wp-slack-canada-community-site-36126675","tagName":"header","align":"full"} /-->
+
+<!-- wp:group {"metadata":{"name":"Hero Center"},"className":"hero-center"} -->
+<div class="wp-block-group hero-center"><!-- wp:heading {"level":1,"className":"hero-headline"} -->
+<h1 class="wp-block-heading hero-headline"><em><span class="hero-line-1">Find</span> <span class="hero-line-2">Your</span></em> <span class="hero-line-3">People</span></h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"hero-subtitle"} -->
+<p class="hero-subtitle">Where Canadian WordPress developers, designers, and creators connect, collaborate, and grow together.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"metadata":{"name":"Hero CTA Buttons"},"className":"hero-cta-area"} -->
+<div class="wp-block-buttons hero-cta-area"><!-- wp:button {"className":"hero-cta"} -->
+<div class="wp-block-button hero-cta"><a class="wp-block-button__link wp-element-button" href="https://wp-ca.slack.com" target="_blank" rel="noopener">Join the Slack workspace</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Hero Footer"},"className":"hero-footer","layout":{"type":"default"}} -->
+<div class="wp-block-group hero-footer"><!-- wp:group {"metadata":{"name":"Hero Footer Item"},"className":"hero-footer-item"} -->
+<div class="wp-block-group hero-footer-item"><!-- wp:paragraph {"className":"hero-footer-label"} -->
+<p class="hero-footer-label">Members</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"hero-footer-value"} -->
+<p class="hero-footer-value">1,000+</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Hero Footer Item"},"className":"hero-footer-item"} -->
+<div class="wp-block-group hero-footer-item"><!-- wp:paragraph {"className":"hero-footer-label"} -->
+<p class="hero-footer-label">Reach</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"hero-footer-value"} -->
+<p class="hero-footer-value">Coast to Coast</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Hero Footer Item"},"className":"hero-footer-item"} -->
+<div class="wp-block-group hero-footer-item"><!-- wp:paragraph {"className":"hero-footer-label"} -->
+<p class="hero-footer-label">Always</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"hero-footer-value"} -->
+<p class="hero-footer-value">Free &amp; Open</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","metadata":{"name":"About Section"},"align":"full","className":"about","layout":{"type":"constrained"},"anchor":"about"} -->
+<section class="wp-block-group alignfull about" id="about"><!-- wp:group {"metadata":{"name":"About Inner"},"className":"about-inner"} -->
+<div class="wp-block-group about-inner"><!-- wp:group {"metadata":{"name":"About Text"},"className":"about-text"} -->
+<div class="wp-block-group about-text"><!-- wp:paragraph {"className":"section-overline animate-on-scroll"} -->
+<p class="section-overline animate-on-scroll">About the Community</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"className":"section-title animate-on-scroll"} -->
+<h2 class="wp-block-heading section-title animate-on-scroll">A place where <br><em>WordPress meets Canada</em></h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"metadata":{"name":"About Body"},"className":"about-body animate-on-scroll"} -->
+<div class="wp-block-group about-body animate-on-scroll"><!-- wp:paragraph -->
+<p>WP Slack Canada is a free, open Slack workspace that brings together WordPress professionals from every province and territory. Whether you're a developer shipping plugins, a designer crafting themes, a freelancer building client sites, or someone just getting started — there's a place for you here.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>We share knowledge, troubleshoot problems together, discuss the latest WordPress news, and support each other's work. It's the kind of community where a question asked at midnight in Halifax gets answered by morning in Vancouver.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"About Image"},"className":"about-image animate-on-scroll","style":{"background":{"backgroundImage":{"url":"http://localhost:8890/wp-content/uploads/2026/02/about-community.jpg"},"backgroundSize":"cover","backgroundPosition":"center center"}}} -->
+<div class="wp-block-group about-image animate-on-scroll"></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"About Stats"},"className":"about-stats"} -->
+<div class="wp-block-group about-stats"><!-- wp:group {"metadata":{"name":"Stat Item"},"className":"stat-item animate-on-scroll"} -->
+<div class="wp-block-group stat-item animate-on-scroll"><!-- wp:paragraph {"className":"stat-number"} -->
+<p class="stat-number">10+</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"stat-label"} -->
+<p class="stat-label">Active Channels</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Stat Item"},"className":"stat-item animate-on-scroll"} -->
+<div class="wp-block-group stat-item animate-on-scroll"><!-- wp:paragraph {"className":"stat-number"} -->
+<p class="stat-number">7+</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"stat-label"} -->
+<p class="stat-label">Provincial Groups</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Stat Item"},"className":"stat-item animate-on-scroll"} -->
+<div class="wp-block-group stat-item animate-on-scroll"><!-- wp:paragraph {"className":"stat-number"} -->
+<p class="stat-number">24/7</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"stat-label"} -->
+<p class="stat-label">Conversations</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Stat Item"},"className":"stat-item animate-on-scroll"} -->
+<div class="wp-block-group stat-item animate-on-scroll"><!-- wp:paragraph {"className":"stat-number"} -->
+<p class="stat-number">∞</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"stat-label"} -->
+<p class="stat-label">Coffee Consumed</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","metadata":{"name":"Provinces Section"},"align":"full","className":"provinces","style":{"background":{"backgroundImage":{"url":"http://localhost:8890/wp-content/uploads/2026/02/canada-landscape.jpg"},"backgroundSize":"cover","backgroundPosition":"center center"}},"layout":{"type":"default"}} -->
+<section class="wp-block-group alignfull provinces"><!-- wp:group {"metadata":{"name":"Provinces Overlay [Hidden]"},"className":"provinces-overlay miles-editor-hidden"} -->
+<div class="wp-block-group provinces-overlay miles-editor-hidden"></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Provinces Content"},"className":"provinces-content","layout":{"type":"constrained"}} -->
+<div class="wp-block-group provinces-content"><!-- wp:paragraph {"className":"section-overline section-overline\u002d\u002dlight animate-on-scroll","style":{"typography":{"textAlign":"center"}}} -->
+<p class="has-text-align-center section-overline section-overline--light animate-on-scroll">From Coast to Coast to Coast</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"className":"section-title section-title\u002d\u002dlight animate-on-scroll","style":{"typography":{"textAlign":"center"}}} -->
+<h2 class="wp-block-heading has-text-align-center section-title section-title--light animate-on-scroll">One community,<br> <em>every province</em></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"provinces-desc animate-on-scroll","style":{"typography":{"textAlign":"center"}}} -->
+<p class="has-text-align-center provinces-desc animate-on-scroll">No matter where you are in Canada, there's a local channel waiting for you. Connect with WordPress folks in your province, find nearby meetups, and build lasting relationships.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"metadata":{"name":"Province Grid"},"className":"province-grid","layout":{"type":"default"}} -->
+<div class="wp-block-group province-grid"><!-- wp:group {"tagName":"article","metadata":{"name":"Province Card"},"className":"province-card animate-on-scroll"} -->
+<article class="wp-block-group province-card animate-on-scroll"><!-- wp:paragraph {"className":"province-abbr"} -->
+<p class="province-abbr">BC</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"province-name"} -->
+<p class="province-name">British Columbia</p>
+<!-- /wp:paragraph --></article>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"article","metadata":{"name":"Province Card"},"className":"province-card animate-on-scroll"} -->
+<article class="wp-block-group province-card animate-on-scroll"><!-- wp:paragraph {"className":"province-abbr"} -->
+<p class="province-abbr">AB</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"province-name"} -->
+<p class="province-name">Alberta</p>
+<!-- /wp:paragraph --></article>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"article","metadata":{"name":"Province Card"},"className":"province-card animate-on-scroll"} -->
+<article class="wp-block-group province-card animate-on-scroll"><!-- wp:paragraph {"className":"province-abbr"} -->
+<p class="province-abbr">MB</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"province-name"} -->
+<p class="province-name">Manitoba</p>
+<!-- /wp:paragraph --></article>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"article","metadata":{"name":"Province Card"},"className":"province-card animate-on-scroll"} -->
+<article class="wp-block-group province-card animate-on-scroll"><!-- wp:paragraph {"className":"province-abbr"} -->
+<p class="province-abbr">ON</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"province-name"} -->
+<p class="province-name">Ontario</p>
+<!-- /wp:paragraph --></article>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"article","metadata":{"name":"Province Card"},"className":"province-card animate-on-scroll"} -->
+<article class="wp-block-group province-card animate-on-scroll"><!-- wp:paragraph {"className":"province-abbr"} -->
+<p class="province-abbr">QC</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"province-name"} -->
+<p class="province-name">Québec</p>
+<!-- /wp:paragraph --></article>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"article","metadata":{"name":"Province Card"},"className":"province-card animate-on-scroll"} -->
+<article class="wp-block-group province-card animate-on-scroll"><!-- wp:paragraph {"className":"province-abbr"} -->
+<p class="province-abbr">NS</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"province-name"} -->
+<p class="province-name">Nova Scotia</p>
+<!-- /wp:paragraph --></article>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"article","metadata":{"name":"Province Card"},"className":"province-card animate-on-scroll"} -->
+<article class="wp-block-group province-card animate-on-scroll"><!-- wp:paragraph {"className":"province-abbr"} -->
+<p class="province-abbr">NL</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"province-name"} -->
+<p class="province-name">Newfoundland &amp; Labrador</p>
+<!-- /wp:paragraph --></article>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","metadata":{"name":"Channels Section"},"align":"full","className":"channels","layout":{"type":"constrained"},"anchor":"channels"} -->
+<section class="wp-block-group alignfull channels" id="channels"><!-- wp:group {"metadata":{"name":"Channels Inner"},"className":"channels-inner","layout":{"type":"default"}} -->
+<div class="wp-block-group channels-inner"><!-- wp:group {"metadata":{"name":"Channels Sidebar"},"className":"channels-sidebar","layout":{"type":"default"}} -->
+<div class="wp-block-group channels-sidebar"><!-- wp:group {"metadata":{"name":"Channels Image"},"className":"channels-image animate-on-scroll","style":{"background":{"backgroundImage":{"url":"http://localhost:8890/wp-content/uploads/2026/02/channels-workspace.jpg"},"backgroundSize":"cover","backgroundPosition":"center center"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group channels-image animate-on-scroll"></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Channels Main"},"className":"channels-main","layout":{"type":"default"}} -->
+<div class="wp-block-group channels-main"><!-- wp:paragraph {"className":"section-overline animate-on-scroll"} -->
+<p class="section-overline animate-on-scroll">Explore the Workspace</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"className":"section-title animate-on-scroll"} -->
+<h2 class="wp-block-heading section-title animate-on-scroll">Channels for<br> <em>every interest</em></h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"metadata":{"name":"Channel List"},"className":"channel-list","layout":{"type":"default"}} -->
+<div class="wp-block-group channel-list"><!-- wp:group {"metadata":{"name":"Channel Item"},"className":"channel-item animate-on-scroll","layout":{"type":"default"}} -->
+<div class="wp-block-group channel-item animate-on-scroll"><!-- wp:paragraph {"className":"channel-hash"} -->
+<p class="channel-hash">#</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"metadata":{"name":"Channel Info"},"className":"channel-info","layout":{"type":"default"}} -->
+<div class="wp-block-group channel-info"><!-- wp:heading {"level":3,"className":"channel-name"} -->
+<h3 class="wp-block-heading channel-name">general</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"channel-desc"} -->
+<p class="channel-desc">The main gathering space. Say hello, share what you're working on, or start a conversation about anything WordPress.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Channel Item"},"className":"channel-item animate-on-scroll","layout":{"type":"default"}} -->
+<div class="wp-block-group channel-item animate-on-scroll"><!-- wp:paragraph {"className":"channel-hash"} -->
+<p class="channel-hash">#</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"metadata":{"name":"Channel Info"},"className":"channel-info","layout":{"type":"default"}} -->
+<div class="wp-block-group channel-info"><!-- wp:heading {"level":3,"className":"channel-name"} -->
+<h3 class="wp-block-heading channel-name">theme-development</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"channel-desc"} -->
+<p class="channel-desc">Block themes, classic themes, Full Site Editing — talk shop with fellow theme developers across Canada.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Channel Item"},"className":"channel-item animate-on-scroll","layout":{"type":"default"}} -->
+<div class="wp-block-group channel-item animate-on-scroll"><!-- wp:paragraph {"className":"channel-hash"} -->
+<p class="channel-hash">#</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"metadata":{"name":"Channel Info"},"className":"channel-info","layout":{"type":"default"}} -->
+<div class="wp-block-group channel-info"><!-- wp:heading {"level":3,"className":"channel-name"} -->
+<h3 class="wp-block-heading channel-name">plugin-development</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"channel-desc"} -->
+<p class="channel-desc">From custom Gutenberg blocks to WooCommerce extensions. Share code, get reviews, and discuss best practices.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Channel Item"},"className":"channel-item animate-on-scroll","layout":{"type":"default"}} -->
+<div class="wp-block-group channel-item animate-on-scroll"><!-- wp:paragraph {"className":"channel-hash"} -->
+<p class="channel-hash">#</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"metadata":{"name":"Channel Info"},"className":"channel-info","layout":{"type":"default"}} -->
+<div class="wp-block-group channel-info"><!-- wp:heading {"level":3,"className":"channel-name"} -->
+<h3 class="wp-block-heading channel-name">freelance-business</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"channel-desc"} -->
+<p class="channel-desc">Running a WordPress business in Canada? Discuss pricing, contracts, clients, and the unique landscape of Canadian freelancing.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Channel Item"},"className":"channel-item animate-on-scroll","layout":{"type":"default"}} -->
+<div class="wp-block-group channel-item animate-on-scroll"><!-- wp:paragraph {"className":"channel-hash"} -->
+<p class="channel-hash">#</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"metadata":{"name":"Channel Info"},"className":"channel-info","layout":{"type":"default"}} -->
+<div class="wp-block-group channel-info"><!-- wp:heading {"level":3,"className":"channel-name"} -->
+<h3 class="wp-block-heading channel-name">wordcamp-canada</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"channel-desc"} -->
+<p class="channel-desc">Stay up to date on WordCamp Canada planning, volunteer opportunities, speaker applications, and travel coordination.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Channel Item"},"className":"channel-item animate-on-scroll","layout":{"type":"default"}} -->
+<div class="wp-block-group channel-item animate-on-scroll"><!-- wp:paragraph {"className":"channel-hash"} -->
+<p class="channel-hash">#</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"metadata":{"name":"Channel Info"},"className":"channel-info","layout":{"type":"default"}} -->
+<div class="wp-block-group channel-info"><!-- wp:heading {"level":3,"className":"channel-name"} -->
+<h3 class="wp-block-heading channel-name">off-topic</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"channel-desc"} -->
+<p class="channel-desc">Hockey debates, poutine rankings, hiking spots, and everything else that makes us Canadian. Community beyond code.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","metadata":{"name":"Guidelines Section"},"align":"full","className":"guidelines","layout":{"type":"constrained"},"anchor":"guidelines"} -->
+<section class="wp-block-group alignfull guidelines" id="guidelines"><!-- wp:group {"metadata":{"name":"Guidelines Inner"},"className":"guidelines-inner","layout":{"type":"default"}} -->
+<div class="wp-block-group guidelines-inner"><!-- wp:paragraph {"className":"section-overline animate-on-scroll","style":{"typography":{"textAlign":"center"}}} -->
+<p class="has-text-align-center section-overline animate-on-scroll">How We Gather</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"className":"section-title animate-on-scroll","style":{"typography":{"textAlign":"center"}}} -->
+<h2 class="wp-block-heading has-text-align-center section-title animate-on-scroll">Five rules of<br> <em>good faith</em></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"guidelines-intro animate-on-scroll","style":{"typography":{"textAlign":"center"}}} -->
+<p class="has-text-align-center guidelines-intro animate-on-scroll">Our community thrives because every member agrees to engage with generosity and respect. These five principles guide everything we do.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"metadata":{"name":"Rules Grid"},"className":"rules-grid","layout":{"type":"default"}} -->
+<div class="wp-block-group rules-grid"><!-- wp:group {"metadata":{"name":"Rule Card"},"className":"rule-card animate-on-scroll","layout":{"type":"default"}} -->
+<div class="wp-block-group rule-card animate-on-scroll"><!-- wp:paragraph {"className":"rule-number"} -->
+<p class="rule-number">01</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"className":"rule-title"} -->
+<h3 class="wp-block-heading rule-title">Assume Good Intentions</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"rule-desc"} -->
+<p class="rule-desc">Before reacting, consider that the other person might have a different perspective — not a malicious one. Give people the benefit of the doubt.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Rule Card"},"className":"rule-card animate-on-scroll","layout":{"type":"default"}} -->
+<div class="wp-block-group rule-card animate-on-scroll"><!-- wp:paragraph {"className":"rule-number"} -->
+<p class="rule-number">02</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"className":"rule-title"} -->
+<h3 class="wp-block-heading rule-title">Be Generous With Knowledge</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"rule-desc"} -->
+<p class="rule-desc">Share what you know freely. The question someone asks today might be the one you had three years ago. Teaching is how we all grow.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Rule Card"},"className":"rule-card animate-on-scroll","layout":{"type":"default"}} -->
+<div class="wp-block-group rule-card animate-on-scroll"><!-- wp:paragraph {"className":"rule-number"} -->
+<p class="rule-number">03</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"className":"rule-title"} -->
+<h3 class="wp-block-heading rule-title">Respect Every Skill Level</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"rule-desc"} -->
+<p class="rule-desc">Whether someone just installed WordPress for the first time or has been contributing to core for a decade — every voice matters equally here.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Rule Card"},"className":"rule-card animate-on-scroll","layout":{"type":"default"}} -->
+<div class="wp-block-group rule-card animate-on-scroll"><!-- wp:paragraph {"className":"rule-number"} -->
+<p class="rule-number">04</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"className":"rule-title"} -->
+<h3 class="wp-block-heading rule-title">Keep It Constructive</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"rule-desc"} -->
+<p class="rule-desc">Criticism of code is welcome; criticism of people is not. When offering feedback, be specific, kind, and actionable.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Rule Card"},"className":"rule-card animate-on-scroll","layout":{"type":"default"}} -->
+<div class="wp-block-group rule-card animate-on-scroll"><!-- wp:paragraph {"className":"rule-number"} -->
+<p class="rule-number">05</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"className":"rule-title"} -->
+<h3 class="wp-block-heading rule-title">Make Space for Others</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"rule-desc"} -->
+<p class="rule-desc">Notice who's quiet. Invite perspectives. Step back when you've been talking a lot. A healthy community has many voices, not just a few loud ones.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","metadata":{"name":"Events Section"},"align":"full","className":"events","layout":{"type":"constrained"},"anchor":"events"} -->
+<section class="wp-block-group alignfull events" id="events"><!-- wp:group {"metadata":{"name":"Events Inner"},"className":"events-inner"} -->
+<div class="wp-block-group events-inner"><!-- wp:paragraph {"className":"section-overline animate-on-scroll"} -->
+<p class="section-overline animate-on-scroll">Stay Connected</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"className":"section-title animate-on-scroll"} -->
+<h2 class="wp-block-heading section-title animate-on-scroll">Events &amp;<br> <em>resources</em></h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"metadata":{"name":"Events Grid"},"className":"events-grid","layout":{"type":"default"}} -->
+<div class="wp-block-group events-grid"><!-- wp:group {"tagName":"article","metadata":{"name":"Featured Event Card"},"className":"event-card event-card\u002d\u002dfeatured animate-on-scroll","layout":{"type":"default"}} -->
+<article class="wp-block-group event-card event-card--featured animate-on-scroll"><!-- wp:paragraph {"className":"event-badge"} -->
+<p class="event-badge">Featured</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"className":"event-title"} -->
+<h3 class="wp-block-heading event-title">WordCamp Canada</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"event-desc"} -->
+<p class="event-desc">The annual gathering of Canada's WordPress community. Talks, workshops, contributor days, and unforgettable hallway conversations. Our Slack community is where the planning happens.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"event-link"} -->
+<p class="event-link"><a href="https://central.wordcamp.org" class="event-link" target="_blank" rel="noopener">Visit WordCamp.org</a></p>
+<!-- /wp:paragraph --></article>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"article","metadata":{"name":"Event Card"},"className":"event-card animate-on-scroll","layout":{"type":"default"}} -->
+<article class="wp-block-group event-card animate-on-scroll"><!-- wp:paragraph {"className":"event-badge"} -->
+<p class="event-badge">Ongoing</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"className":"event-title"} -->
+<h3 class="wp-block-heading event-title">Local Meetups</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"event-desc"} -->
+<p class="event-desc">WordPress meetups happen regularly across Canadian cities. Find one near you — or start one with support from the community.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"event-link"} -->
+<p class="event-link"><a href="https://www.meetup.com/pro/wordpress/" class="event-link" target="_blank" rel="noopener">Find a Meetup</a></p>
+<!-- /wp:paragraph --></article>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"article","metadata":{"name":"Event Card"},"className":"event-card animate-on-scroll","layout":{"type":"default"}} -->
+<article class="wp-block-group event-card animate-on-scroll"><!-- wp:paragraph {"className":"event-badge"} -->
+<p class="event-badge">News</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"className":"event-title"} -->
+<h3 class="wp-block-heading event-title">WordPress.org News</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"event-desc"} -->
+<p class="event-desc">Stay current with the latest WordPress releases, security updates, and community announcements directly from the source.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"event-link"} -->
+<p class="event-link"><a href="https://wordpress.org/news/" class="event-link" target="_blank" rel="noopener">Read the News</a></p>
+<!-- /wp:paragraph --></article>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","metadata":{"name":"FAQ Section"},"align":"full","className":"faq","layout":{"type":"constrained"},"anchor":"faq"} -->
+<section class="wp-block-group alignfull faq" id="faq"><!-- wp:group {"metadata":{"name":"FAQ Inner"},"className":"faq-inner","layout":{"type":"default"}} -->
+<div class="wp-block-group faq-inner"><!-- wp:group {"metadata":{"name":"FAQ Header"},"className":"faq-header","layout":{"type":"default"}} -->
+<div class="wp-block-group faq-header"><!-- wp:paragraph {"className":"section-overline animate-on-scroll"} -->
+<p class="section-overline animate-on-scroll">Common Questions</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"className":"section-title animate-on-scroll"} -->
+<h2 class="wp-block-heading section-title animate-on-scroll">Before you<br> <em>jump in</em></h2>
+<!-- /wp:heading --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"FAQ List"},"className":"faq-list","layout":{"type":"default"}} -->
+<div class="wp-block-group faq-list"><!-- wp:details {"className":"faq-item animate-on-scroll"} -->
+<details class="wp-block-details faq-item animate-on-scroll"><summary>What is Slack, exactly?</summary><!-- wp:group {"metadata":{"name":"FAQ Answer"},"className":"faq-answer","layout":{"type":"default"}} -->
+<div class="wp-block-group faq-answer"><!-- wp:paragraph -->
+<p>Slack is a messaging platform designed for communities and teams. Think of it as a collection of chat rooms (called "channels") organized by topic. You can join the channels that interest you, have group discussions, or send direct messages. It works in your browser or as a desktop/mobile app — and it's completely free to use.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></details>
+<!-- /wp:details -->
+
+<!-- wp:details {"className":"faq-item animate-on-scroll"} -->
+<details class="wp-block-details faq-item animate-on-scroll"><summary>Do I need to be a professional developer to join?</summary><!-- wp:group {"metadata":{"name":"FAQ Answer"},"className":"faq-answer","layout":{"type":"default"}} -->
+<div class="wp-block-group faq-answer"><!-- wp:paragraph -->
+<p>Not at all. Our community includes everyone from people who just discovered WordPress to seasoned core contributors. Designers, content creators, site owners, freelancers, agency teams — anyone with an interest in WordPress and a connection to Canada is welcome.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></details>
+<!-- /wp:details -->
+
+<!-- wp:details {"className":"faq-item animate-on-scroll"} -->
+<details class="wp-block-details faq-item animate-on-scroll"><summary>Is there a cost to join?</summary><!-- wp:group {"metadata":{"name":"FAQ Answer"},"className":"faq-answer","layout":{"type":"default"}} -->
+<div class="wp-block-group faq-answer"><!-- wp:paragraph -->
+<p>WP Slack Canada is completely free and always will be. We're a volunteer-run community built on the open-source spirit that WordPress was founded on. No paywalls, no premium tiers — just people helping people.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></details>
+<!-- /wp:details -->
+
+<!-- wp:details {"className":"faq-item animate-on-scroll"} -->
+<details class="wp-block-details faq-item animate-on-scroll"><summary>I'm not in Canada — can I still join?</summary><!-- wp:group {"metadata":{"name":"FAQ Answer"},"className":"faq-answer","layout":{"type":"default"}} -->
+<div class="wp-block-group faq-answer"><!-- wp:paragraph -->
+<p>While our focus is on the Canadian WordPress community, we welcome anyone with a connection to Canada — whether you've lived here, work with Canadian clients, or are simply interested in our community. The more, the merrier.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></details>
+<!-- /wp:details -->
+
+<!-- wp:details {"className":"faq-item animate-on-scroll"} -->
+<details class="wp-block-details faq-item animate-on-scroll"><summary>Is there a French-language channel?</summary><!-- wp:group {"metadata":{"name":"FAQ Answer"},"className":"faq-answer","layout":{"type":"default"}} -->
+<div class="wp-block-group faq-answer"><!-- wp:paragraph -->
+<p>Absolutely! We have a dedicated #québec channel where French is the primary language, and bilingual conversations are welcome across all channels. We're proud to reflect Canada's linguistic diversity.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></details>
+<!-- /wp:details -->
+
+<!-- wp:details {"className":"faq-item animate-on-scroll"} -->
+<details class="wp-block-details faq-item animate-on-scroll"><summary>How active is the community?</summary><!-- wp:group {"metadata":{"name":"FAQ Answer"},"className":"faq-answer","layout":{"type":"default"}} -->
+<div class="wp-block-group faq-answer"><!-- wp:paragraph -->
+<p>Very! With 3,200+ members across all time zones, there's usually someone around to chat. The busiest channels see daily conversations, and you'll often get answers to questions within hours. We're particularly buzzing around WordCamp season.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></details>
+<!-- /wp:details --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","metadata":{"name":"Final CTA Section"},"align":"full","className":"final-cta","style":{"background":{"backgroundImage":{"url":"http://localhost:8890/wp-content/uploads/2026/02/aurora-sky.jpg"},"backgroundSize":"cover","backgroundPosition":"center center"}},"layout":{"type":"constrained"},"anchor":"join"} -->
+<section class="wp-block-group alignfull final-cta" id="join"><!-- wp:group {"metadata":{"name":"Final CTA Content"},"className":"final-cta-content"} -->
+<div class="wp-block-group final-cta-content"><!-- wp:heading {"className":"final-cta-title animate-on-scroll"} -->
+<h2 class="wp-block-heading final-cta-title animate-on-scroll"><span class="final-line-1">Ready to</span><span class="final-line-2">connect?</span></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"final-cta-desc animate-on-scroll"} -->
+<p class="final-cta-desc animate-on-scroll">Join 3,200+ WordPress folks from across Canada. It takes 30 seconds, costs nothing, and you might just find your next collaborator, mentor, or friend.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"metadata":{"name":"Final CTA Buttons"},"className":"final-cta-actions animate-on-scroll"} -->
+<div class="wp-block-buttons final-cta-actions animate-on-scroll"><!-- wp:button {"className":"cta-button cta-button\u002d\u002dprimary"} -->
+<div class="wp-block-button cta-button cta-button--primary"><a class="wp-block-button__link wp-element-button" href="https://wp-ca.slack.com" target="_blank" rel="noopener">Join WP Slack Canada</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"miles-wp-slack-canada-community-site-36126675","tagName":"footer","align":"full"} /-->

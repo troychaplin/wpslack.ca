@@ -1,10 +1,39 @@
-/* ===================================================================
-   WP SLACK CANADA — Styles
-   Design: Maple Lodge Serif
-   =================================================================== */
+     @font-face {
+       font-family: 'Playfair Display';
+       font-style: normal;
+       font-weight: 400;
+       font-display: swap;
+       src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_qiTbtbK-F2rA0s.woff2) format('woff2');
+     }
+     @font-face {
+       font-family: 'Playfair Display';
+       font-style: normal;
+       font-weight: 600;
+       font-display: swap;
+       src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_kSQbtbK-F2rA0s.woff2) format('woff2');
+     }
+     @font-face {
+       font-family: 'Playfair Display';
+       font-style: normal;
+       font-weight: 700;
+       font-display: swap;
+       src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFiD-vYSZviVYUb_rj3ij__anPXDTnCjmHKM4nYO7KN_j2QbtbK-F2rA0s.woff2) format('woff2');
+     }
+     @font-face {
+       font-family: 'Playfair Display';
+       font-style: italic;
+       font-weight: 400;
+       font-display: swap;
+       src: url(https://fonts.gstatic.com/s/playfairdisplay/v37/nuFkD-vYSZviVYUb_rj3ij__anPXDTngOWwe4z5nLKRQaOGQB6Q0PQan.woff2) format('woff2');
+     }
 
-:root {
-  --font-display: 'Cormorant Garamond', serif;
+     /* ===================================================================
+       WP SLACK CANADA — Styles
+       Design: Maple Lodge Serif
+       =================================================================== */
+     
+     :root {
+       --font-display: 'Playfair Display', serif;
   --font-body: 'Karla', sans-serif;
 }
 
@@ -727,6 +756,7 @@ color: var(--wp--preset--color--color-forest);
   font-weight: 600;
   color: var(--wp--preset--color--color-cream-light);
   line-height: 1;
+  margin-bottom: 0;
 }
 
 .province-name {
@@ -734,6 +764,7 @@ color: var(--wp--preset--color--color-forest);
   font-weight: 300;
   color: rgba(250, 247, 242, 0.55);
   letter-spacing: 0.06em;
+  margin-bottom: 0;
 }
 
 .province-card:hover .province-name {
@@ -1614,9 +1645,9 @@ color: var(--wp--preset--color--color-forest);
   line-height: 1.8;
 }
 
-.wp-block-post-content p {
+/* .wp-block-post-content p {
   margin-bottom: var(--wp--preset--spacing--30);
-}
+} */
 
 .wp-block-post-featured-image {
   border-radius: 2px;
@@ -2350,13 +2381,13 @@ color: var(--wp--preset--color--color-forest);
 /* :::SECTION:Global::: */
 
 /* WordPress post content - margin parity */
-:root :where(.wp-block-post-content p) {
+/* :root :where(.wp-block-post-content p) {
   margin-block-end: var(--wp--preset--spacing--30);
-}
+} */
 
-.editor-styles-wrapper .wp-block-post-content p {
+/* .editor-styles-wrapper .wp-block-post-content p {
   margin-block-end: var(--wp--preset--spacing--30) !important;
-}
+} */
 
 /* WordPress post title - margin parity */
 :root :where(.wp-block-post-title) {
