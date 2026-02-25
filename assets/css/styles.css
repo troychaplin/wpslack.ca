@@ -713,81 +713,84 @@ transition: none;
   max-width: 1200px;
   margin: 0 auto;
 }
-
 .provinces-desc {
-  font-size: var(--wp--preset--font-size--large);
-  font-weight: 300;
-  color: rgba(250, 247, 242, 0.65);
-  max-width: 50ch;
-  line-height: 1.7;
-  margin-bottom: var(--wp--preset--spacing--50);
-}
+      font-size: var(--wp--preset--font-size--large);
+      font-weight: 300;
+      color: rgba(250, 247, 242, 0.65);
+      max-width: 50ch;
+      line-height: 1.7;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: var(--wp--preset--spacing--50);
+    }
 
 .province-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: var(--wp--preset--spacing--30);
-}
-
-.province-card {
-  display: flex;
-  flex-direction: column;
-  gap: var(--wp--preset--spacing--20);
-  padding: var(--wp--preset--spacing--40) var(--wp--preset--spacing--30);
-  background: rgba(250, 247, 242, 0.06);
-  border: 1px solid rgba(250, 247, 242, 0.1);
-  border-radius: 2px;
-  transition: background 0.4s ease, border-color 0.4s ease, transform 0.3s ease;
-  text-decoration: none;
-  cursor: pointer;
-}
+grid-template-columns: repeat(4, 1fr);
+      gap: var(--wp--preset--spacing--30);
+    }
+    .province-card {
+          display: flex;
+          flex-direction: column;
+          gap: var(--wp--preset--spacing--10);
+          padding: var(--wp--preset--spacing--30) var(--wp--preset--spacing--30);
+      background: rgba(250, 247, 242, 0.06);
+      border: 1px solid rgba(250, 247, 242, 0.1);
+      border-radius: 2px;
+      transition: background 0.4s ease, border-color 0.4s ease, transform 0.3s ease;
+      text-decoration: none;
+      cursor: pointer;
+    }
 
 .province-card:hover {
   background: rgba(250, 247, 242, 0.12);
-  border-color: rgba(196, 30, 58, 0.4);
+  border-color: rgba(250, 247, 242, 0.35);
   transform: translateY(-4px);
 }
-
 .province-abbr {
-  font-family: var(--font-display);
-  font-size: var(--wp--preset--font-size--huge);
-  font-weight: 600;
-  color: var(--wp--preset--color--color-cream-light);
-  line-height: 1;
-  margin-bottom: 0;
-}
-
+      font-family: var(--font-display);
+      font-size: var(--wp--preset--font-size--huge);
+      font-weight: 600;
+      color: var(--wp--preset--color--color-cream-light);
+      line-height: 1;
+      margin-bottom: 0;
+    }
 .province-name {
-  font-size: var(--wp--preset--font-size--small);
-  font-weight: 300;
-  color: rgba(250, 247, 242, 0.55);
-  letter-spacing: 0.06em;
-  margin-bottom: 0;
-}
+      font-size: var(--wp--preset--font-size--large);
+      font-weight: 300;
+      color: rgba(250, 247, 242, 0.55);
+      letter-spacing: 0.06em;
+      margin-bottom: 0;
+    }
 
 .province-card:hover .province-name {
   color: rgba(250, 247, 242, 0.85);
 }
+@media (max-width: 1024px) {
+      .province-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
 
-@media (max-width: 768px) {
-  .provinces {
-    padding: var(--wp--preset--spacing--60) var(--wp--preset--spacing--40);
-  }
-
-  .province-grid {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  }
-}
-
-@media (max-width: 480px) {
-  .provinces {
-    padding: var(--wp--preset--spacing--50) var(--wp--preset--spacing--30);
-  }
-
-  .province-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+    @media (max-width: 768px) {
+      .provinces {
+        padding: var(--wp--preset--spacing--60) var(--wp--preset--spacing--40);
+      }
+    
+      .province-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .provinces {
+        padding: var(--wp--preset--spacing--50) var(--wp--preset--spacing--30);
+      }
+    
+      .province-grid {
+        grid-template-columns: 1fr;
+      }
+    }
 
 /* :::SECTION:Channels::: */
 /* ===================================================================
@@ -1803,35 +1806,72 @@ transition: none;
   display: flex;
   gap: var(--wp--preset--spacing--40);
 }
+/* Editor: disable hero animations that reset on CSS reload */
+    .editor-styles-wrapper .hero-nav,
+    .editor-styles-wrapper .hero-center,
+    .editor-styles-wrapper .hero-footer,
+    .editor-styles-wrapper .hero-image-panel {
+      animation: none !important;
+      opacity: 1 !important;
+      transform: none !important;
+      clip-path: none !important;
+    }
 
-.editor-styles-wrapper .hero-nav .wp-block-navigation__container {
-  display: flex !important;
-  gap: var(--wp--preset--spacing--40) !important;
-}
+    /* Editor hero-nav: prevent navigation block wrapper from expanding */
+    .editor-styles-wrapper .hero-nav [data-type="core/navigation"] {
+      flex-grow: 0 !important;
+      flex-shrink: 0 !important;
+      width: auto !important;
+    }
+
+    .editor-styles-wrapper .hero-nav .wp-block-navigation {
+      flex-grow: 0 !important;
+      width: auto !important;
+    }
+.editor-styles-wrapper .hero-nav .wp-block-navigation .is-layout-flex {
+          gap: var(--wp--preset--spacing--40) !important;
+        }
+
+    .editor-styles-wrapper .hero-nav .wp-block-navigation__responsive-container-content {
+      width: auto !important;
+    }
+
+    .editor-styles-wrapper .hero-nav .wp-block-navigation__container {
+      display: flex !important;
+      gap: var(--wp--preset--spacing--40) !important;
+    }
 
 .editor-styles-wrapper .hero-nav .wp-block-navigation__responsive-container-content {
   display: flex !important;
   gap: var(--wp--preset--spacing--40) !important;
 }
-
 .editor-styles-wrapper .hero-nav .wp-block-navigation-item + .wp-block-navigation-item {
-  margin-left: var(--wp--preset--spacing--40) !important;
-}
+          margin-left: 0 !important;
+        }
+
+    .editor-styles-wrapper .hero-nav .wp-block-navigation-item {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    .editor-styles-wrapper .hero-nav .wp-block-navigation__container > * {
+      margin: 0 !important;
+    }
 
 /* Hero navigation link styling - dual-target pattern */
 .hero-nav-links,
-.wp-block-navigation.hero-nav .wp-block-navigation-item__content {
-  font-size: var(--wp--preset--font-size--small);
-  font-weight: 400;
-  color: var(--wp--preset--color--color-forest-light);
-  text-decoration: none;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  transition: color 0.3s ease;
-}
+.hero-nav .wp-block-navigation-item__content {
+      font-size: var(--wp--preset--font-size--small);
+      font-weight: 400;
+      color: var(--wp--preset--color--color-forest-light);
+      text-decoration: none;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.3s ease;
+    }
 
 .hero-nav-links:hover,
-.wp-block-navigation.hero-nav .wp-block-navigation-item__content:hover {
+.hero-nav .wp-block-navigation-item__content:hover {
   color: var(--wp--preset--color--color-maple);
 }
 
@@ -1917,16 +1957,22 @@ transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
 .editor-styles-wrapper .hero > .block-editor-block-list__block {
   margin: 0 !important;
 }
-
 /* Hero content panel - grid container editor fix */
-.editor-styles-wrapper .hero-content-panel {
-  display: grid !important;
-  grid-template-rows: auto minmax(4rem, 1fr) auto !important;
-}
-
-.editor-styles-wrapper .hero-content-panel > .block-editor-block-list__block {
-  margin: 0 !important;
-}
+    .editor-styles-wrapper .hero-content-panel {
+      display: grid !important;
+      grid-template-rows: auto minmax(4rem, 1fr) auto !important;
+      overflow: hidden !important;
+    }
+    
+    .editor-styles-wrapper .hero-content-panel > .block-editor-block-list__block {
+      margin: 0 !important;
+      max-width: 100% !important;
+      overflow: hidden !important;
+    }
+    
+    .editor-styles-wrapper .hero-content-panel .hero-nav {
+      max-width: 100% !important;
+    }
 
 /* Hero footer - flex container editor fix */
 .editor-styles-wrapper .hero-footer {
@@ -2077,7 +2123,7 @@ transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
 /* Province grid - grid container editor fix */
 .editor-styles-wrapper .province-grid {
   display: grid !important;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
+  grid-template-columns: repeat(4, 1fr) !important;
   gap: var(--wp--preset--spacing--30) !important;
 }
 
