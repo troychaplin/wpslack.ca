@@ -273,8 +273,8 @@ ul, ol {
 
 .hero-nav-links {
   display: flex;
-  gap: var(--wp--preset--spacing--40);
-}
+gap: var(--wp--preset--spacing--40);
+        }
 
 .hero-nav-links a {
   font-size: var(--wp--preset--font-size--small);
@@ -372,9 +372,9 @@ color: var(--wp--preset--color--color-forest);
   animation: fadeSlideUp 0.7s ease 2.5s both;
 }
 .hero-cta-area {
-      margin-top: var(--wp--preset--spacing--50);
-      animation: fadeSlideUp 0.7s ease 2.8s both;
-      gap: var(--wp--preset--spacing--40);
+          margin-top: var(--wp--preset--spacing--50);
+          animation: fadeSlideUp 0.7s ease 2.8s both;
+          gap: var(--wp--preset--spacing--30);
     }
 
 .hero-cta {
@@ -391,13 +391,12 @@ color: var(--wp--preset--color--color-forest);
 border-radius: 2px;
       letter-spacing: 0.04em;
       border: 1.5px solid var(--wp--preset--color--color-forest);
-      transition: background-color 0.4s ease, transform 0.3s ease;
+transition: background-color 0.4s ease;
+        }
+    
+    .hero-cta:hover {
+      background-color: var(--wp--preset--color--color-maple);
     }
-
-.hero-cta:hover {
-  background-color: var(--wp--preset--color--color-maple);
-  transform: translateX(4px);
-}
 
 .hero-cta::after {
   content: '';
@@ -408,12 +407,11 @@ border-radius: 2px;
   mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'%3E%3C/line%3E%3Cpolyline points='12 5 19 12 12 19'%3E%3C/polyline%3E%3C/svg%3E");
   mask-size: contain;
   mask-repeat: no-repeat;
-  transition: transform 0.3s ease;
-}
-
-.hero-cta:hover::after {
-  transform: translateX(4px);
-}
+transition: none;
+    }
+    
+    .hero-cta:hover::after {
+    }
 
 @keyframes fadeSlideUp {
   from { opacity: 0; transform: translateY(20px); }
@@ -578,9 +576,8 @@ border-radius: 2px;
 .about-text {
   padding-right: var(--wp--preset--spacing--40);
 }
-
 .about-body {
-  color: var(--wp--preset--color--color-forest-light);
+      color: var(--wp--preset--color--color-forest-mid);
   line-height: 1.8;
   font-size: var(--wp--preset--font-size--large);
   font-weight: 300;
@@ -881,11 +878,10 @@ border-radius: 2px;
   color: var(--wp--preset--color--color-forest);
   margin-bottom: var(--wp--preset--spacing--20);
 }
-
 .channel-desc {
-  font-size: var(--wp--preset--font-size--medium);
-  font-weight: 300;
-  color: var(--wp--preset--color--color-forest-light);
+      font-size: var(--wp--preset--font-size--medium);
+      font-weight: 300;
+      color: var(--wp--preset--color--color-forest-mid);
   line-height: 1.7;
 }
 
@@ -1150,11 +1146,10 @@ border-radius: 2px;
 .event-card--featured .event-title {
   color: var(--wp--preset--color--color-cream-light);
 }
-
 .event-desc {
-  font-size: var(--wp--preset--font-size--medium);
-  font-weight: 300;
-  color: var(--wp--preset--color--color-forest-light);
+      font-size: var(--wp--preset--font-size--medium);
+      font-weight: 300;
+      color: var(--wp--preset--color--color-forest-mid);
   line-height: 1.7;
   flex: 1;
 }
@@ -1873,13 +1868,12 @@ border-radius: 2px;
   padding: var(--wp--preset--spacing--30) var(--wp--preset--spacing--40);
   border-radius: 2px;
   letter-spacing: 0.04em;
-  transition: background-color 0.4s ease, transform 0.3s ease;
-}
-.wp-block-button.hero-cta .wp-block-button__link:hover {
-      background-color: var(--wp--preset--color--color-maple);
-      border-color: var(--wp--preset--color--color-maple);
-      transform: translateX(4px);
+transition: background-color 0.4s ease;
     }
+    .wp-block-button.hero-cta .wp-block-button__link:hover {
+          background-color: var(--wp--preset--color--color-maple);
+          border-color: var(--wp--preset--color--color-maple);
+        }
 
 /* Hero CTA button - arrow icon pseudo-element */
 .wp-block-button.hero-cta::after {
@@ -1895,26 +1889,24 @@ border-radius: 2px;
   mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='5' y1='12' x2='19' y2='12'%3E%3C/line%3E%3Cpolyline points='12 5 19 12 12 19'%3E%3C/polyline%3E%3C/svg%3E");
   mask-size: contain;
   mask-repeat: no-repeat;
-  transition: transform 0.3s ease;
-}
-.wp-block-button.hero-cta .wp-block-button__link:hover::after {
-      transform: translateX(4px);
+transition: none;
     }
+    .wp-block-button.hero-cta .wp-block-button__link:hover::after {
+        }
     
     /* Hero CTA outline variant */
     .wp-block-button.hero-cta.is-style-outline .wp-block-button__link {
       background-color: transparent;
       color: var(--wp--preset--color--color-forest);
       border: 1.5px solid var(--wp--preset--color--color-forest);
-      transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease, transform 0.3s ease;
-    }
-    
-    .wp-block-button.hero-cta.is-style-outline .wp-block-button__link:hover {
-      background-color: var(--wp--preset--color--color-forest);
-      color: var(--wp--preset--color--color-cream-light);
-      border-color: var(--wp--preset--color--color-forest);
-      transform: translateX(4px);
-    }
+transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+        }
+        
+        .wp-block-button.hero-cta.is-style-outline .wp-block-button__link:hover {
+          background-color: var(--wp--preset--color--color-forest);
+          color: var(--wp--preset--color--color-cream-light);
+          border-color: var(--wp--preset--color--color-forest);
+        }
     
     /* Hero section - grid container editor fix */
 .editor-styles-wrapper .hero {
@@ -1949,8 +1941,9 @@ border-radius: 2px;
 
 /* Hero CTA area - flex container editor fix */
 .editor-styles-wrapper .hero-cta-area {
-  display: flex !important;
-}
+      display: flex !important;
+      gap: var(--wp--preset--spacing--30) !important;
+    }
 
 .editor-styles-wrapper .hero-cta-area > .block-editor-block-list__block {
   margin: 0 !important;
@@ -2032,10 +2025,12 @@ border-radius: 2px;
 
 /* About stats - grid container editor fix */
 .editor-styles-wrapper .about-stats {
-  display: grid !important;
-  grid-template-columns: repeat(4, 1fr) !important;
-  gap: var(--wp--preset--spacing--40) !important;
-}
+      display: grid !important;
+      grid-template-columns: repeat(4, 1fr) !important;
+      gap: var(--wp--preset--spacing--40) !important;
+      margin: var(--wp--preset--spacing--60) auto 0 !important;
+      max-width: 1200px !important;
+    }
 
 .editor-styles-wrapper .about-stats > .block-editor-block-list__block {
   margin: 0 !important;
